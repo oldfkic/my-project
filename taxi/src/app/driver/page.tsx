@@ -12,7 +12,7 @@ import { useEffect, useMemo, useState } from "react";
 type RouteOption = { id: string; name: string };
 type PaymentType = "per_seat" | "package";
 
-export function DriverPage() {
+export default function DriverPage(): React.JSX.Element {
   // Car & driver info
   const [carMake, setCarMake] = useState("");
   const [carModel, setCarModel] = useState("");

@@ -1,8 +1,8 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { DriverPage } from "./driver/page";
-import { PassagerPage } from "./passager/page";
+import  DriverPage  from "./driver/page";
+import  PassagerPage  from "./passager/page";
 
 type Role = "passager" | "driver" | null;
 

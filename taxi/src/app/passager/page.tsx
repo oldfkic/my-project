@@ -8,7 +8,7 @@ import ComboboxDemo from "@/components/comboBox";
 
 type RouteOption = { id: string; name: string };
 
-export function PassagerPage() {
+export default function PassagerPage(): React.JSX.Element {
   const [routes, setRoutes] = useState<RouteOption[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
